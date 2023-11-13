@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(9,21,185,1) 0%, rgba(7,150,214,1) 100%);
+    margin: 5%;
+    color: white
+}
+
+footer, h1 {text-align: center;}
+.show {display: block}
+h1 {font-size: calc(20px + 0.50833vw)}
+li {font-size: calc(15px + 0.390625vw)}
+a {text-decoration: none}
+a:link {color: rgb(0, 213, 157)}
+a:visited {color: rgb(0, 176, 103)}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    background-color: rgba(2,0,36,1);
+    box-shadow: 0 -10px 15px rgba(1, 1, 73, 0.4);
+    position: absolute;
+    left: 0; right: 0;
+    padding: 30px; margin: 20px 0 0 0;
+}
+
+.line:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+p {
+    display: none;
+    font-style: italic;
+    font-size: calc(13px + 0.390625vw);
+    color: rgb(213, 214, 246)
+}
+
+a:hover {
+    color: rgb(0, 255, 187);
+    text-decoration: underline
+}
+
+a:active {
+    color: white;
+    text-shadow: 0 0 2px white;
+    text-decoration: underline
+}
